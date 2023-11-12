@@ -1,0 +1,48 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Validation\Rule;
+use LaravelJsonApi\Validation\Rule as JsonApiRule;
+use Stery\Api\Laravel\Http\Requests\ResourceRequest;
+
+class {{ class }} extends ResourceRequest
+{
+
+    /**
+     * Get the validation rules for the resource when creating.
+     *
+     * @return array
+     */
+    public function createRules(): array
+    {
+        return [
+            // @TODO
+        ];
+    }
+
+    /**
+     * Get the validation rules for the resource when updating.
+     *
+     * @return array
+     */
+    public function updateRules(): array
+    {
+        return [
+            // @TODO
+        ];
+    }
+
+    /**
+     * Get the validation rules for the resource when deleting.
+     *
+     * @return array
+     */
+    public function deleteRules(): array
+    {
+        return [
+            // @TODO
+        ];
+    }
+
+}

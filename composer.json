@@ -1,0 +1,26 @@
+{
+    "name": "stery-app/api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stery\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jecar",
+            "email": "carojefte@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "laravel-json-api/laravel": "^3.1",
+        "illuminate/support": "*",
+        "illuminate/console": "*"
+    },
+    "require-dev": {
+        "laravel-json-api/testing": "^2.1"
+    }
+}
