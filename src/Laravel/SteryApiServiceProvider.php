@@ -8,6 +8,7 @@ use LaravelJsonApi\Laravel\ServiceProvider as BaseProvider;
 use Stery\Api\Laravel\Commands\MakeApiCommand;
 use Stery\Api\Laravel\Commands\MakeModelCommand;
 use Stery\Api\Laravel\Commands\MakeSchemaCommand;
+use Stery\Api\Laravel\Commands\MakeTraitCommand;
 
 class SteryApiServiceProvider extends BaseProvider
 {
@@ -22,6 +23,7 @@ class SteryApiServiceProvider extends BaseProvider
             MakeApiCommand::class,
             MakeModelCommand::class,
             MakeSchemaCommand::class,
+            MakeTraitCommand::class,
             // JsonApi\MakeController::class
         ]);
     }
